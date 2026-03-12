@@ -78,6 +78,6 @@ After release, add to `move-anything/module-catalog.json`:
   "component_type": "utility",
   "latest_version": "0.1.0",
   "min_host_version": "1.0.0",
-  "download_url": "https://github.com/charlesvestal/move-anything-sidcontrol/releases/download/v0.1.0/sidcontrol-module.tar.gz"
+  "download_url": "https://github.com/charlesvestal/move-everything-sidcontrol/releases/download/v0.1.0/sidcontrol-module.tar.gz"
 }
 ```
