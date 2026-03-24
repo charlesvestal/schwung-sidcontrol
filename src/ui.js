@@ -12,15 +12,15 @@ import {
     MoveKnob1, MoveKnob2, MoveKnob3, MoveKnob4,
     MoveKnob5, MoveKnob6, MoveKnob7, MoveKnob8,
     White, Black, Rose, BrightPink
-} from '/data/UserData/move-anything/shared/constants.mjs';
+} from '/data/UserData/schwung/shared/constants.mjs';
 
 import {
     setLED, decodeAcceleratedDelta
-} from '/data/UserData/move-anything/shared/input_filter.mjs';
+} from '/data/UserData/schwung/shared/input_filter.mjs';
 
 import {
     showOverlay, drawOverlay, tickOverlay, hideOverlay
-} from '/data/UserData/move-anything/shared/menu_layout.mjs';
+} from '/data/UserData/schwung/shared/menu_layout.mjs';
 
 /* === Page Definitions === */
 

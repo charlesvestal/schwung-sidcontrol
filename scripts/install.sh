@@ -16,14 +16,14 @@ fi
 echo "=== Installing SIDControl Module ==="
 
 echo "Copying module to Move..."
-ssh ableton@move.local "mkdir -p /data/UserData/move-anything/modules/overtake/sidcontrol"
-scp -r dist/sidcontrol/* ableton@move.local:/data/UserData/move-anything/modules/overtake/sidcontrol/
+ssh ableton@move.local "mkdir -p /data/UserData/schwung/modules/overtake/sidcontrol"
+scp -r dist/sidcontrol/* ableton@move.local:/data/UserData/schwung/modules/overtake/sidcontrol/
 
 # Set permissions so Module Store can update later
 echo "Setting permissions..."
-ssh ableton@move.local "chmod -R a+rw /data/UserData/move-anything/modules/overtake/sidcontrol"
+ssh ableton@move.local "chmod -R a+rw /data/UserData/schwung/modules/overtake/sidcontrol"
 
 echo ""
 echo "=== Install Complete ==="
-echo "Module installed to: /data/UserData/move-anything/modules/overtake/sidcontrol/"
+echo "Module installed to: /data/UserData/schwung/modules/overtake/sidcontrol/"
 echo "Restart Move Anything or use host_rescan_modules() to load."
