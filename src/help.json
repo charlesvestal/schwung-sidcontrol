@@ -8,7 +8,7 @@
         "SIDaster III synth.",
         "",
         "8 pages of controls",
-        "(64 total CCs) for",
+        "(42 parameters) for",
         "full SIDaster access.",
         "",
         "Chromatic pad input",
@@ -28,28 +28,34 @@
             "",
             "Page 1: Global",
             " Vol, Filter, Mode...",
+            " 8 params",
             "",
             "Page 2: Tune",
-            " Per-oscillator tuning",
+            " Tuning. 1 param.",
             "",
             "Pages 3-8: OSC 1,",
             " 1+, 2, 2+, 3, 3+",
-            " Wave, PW, ADSR..."
+            " Wave, PW, ADSR...",
+            " 8 params on OSC n,",
+            " 3 on OSC n+."
           ]
         },
         {
           "title": "Knobs & Pads",
           "lines": [
-            "Knobs 1-8 control",
-            "8 parameters per",
-            "page (64 total).",
+            "Knobs 1-8 control up",
+            "to 8 parameters per",
+            "page. Pages with",
+            "fewer leave the",
+            "remaining knobs",
+            "unassigned.",
             "",
             "Parameter name and",
             "CC value shown on",
             "display when editing.",
             "",
-            "Pads: chromatic",
-            "notes C2-G5 sent",
+            "Pads: 32 chromatic",
+            "notes C2-G4 sent",
             "to SIDaster."
           ]
         }

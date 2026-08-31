@@ -1,7 +1,7 @@
 {
   "id": "sidcontrol",
   "name": "SID Control",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "MIDI controller for SIDaster III synthesizer",
   "author": "charlesvestal",
   "license": "MIT",
